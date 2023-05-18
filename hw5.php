@@ -48,8 +48,8 @@
       
       $host = 'localhost';
       $db = 'database';
-      $user = 'yigit';
-      $pass = '123456';
+      $user = 'root';
+      $pass = '';
 
       $dsn = "mysql:host=$host;dbname=$db";
       $options = [
