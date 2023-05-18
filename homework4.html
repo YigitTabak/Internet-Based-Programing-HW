@@ -8,6 +8,30 @@
 </head>
 <body>
   <form>
-      <h1>Deneme</h1>
+     <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <h2>Form methods</h2>
+
+  <form action="submit-page.php" method="get" target="_blank">
+    <label for="getForm">GET method:</label>
+    <input type="text" id="getForm" name="getForm"><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <form action="submit-page.php" method="post" target="_self">
+    <label for="postForm">POST method:</label>
+    <input type="text" id="postForm" name="postForm"><br>
+    <input type="submit" value="Submit">
+  </form>
 </body>
 </html>
